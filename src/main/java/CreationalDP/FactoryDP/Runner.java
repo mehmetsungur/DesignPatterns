@@ -10,5 +10,16 @@ public class Runner {
 
         Shape pentagon = new Pentagon("besgen",60,3);
         pentagon.draw();
+
+        System.out.println("----------------------------------------");
+
+        Shape shape1 = ShapeFactory.getShape(ShapeType.UCGEN);
+        shape1.draw();
+
+        Shape shape2 = ShapeFactory.getShape(ShapeType.DORTGEN);
+        shape2.draw();
+
+        Shape shape3 = ShapeFactory.getShape(ShapeType.BESGEN);
+        shape3.draw();
     }
 }
