@@ -12,4 +12,8 @@ public class SingletonObject {
 
         return instance;
     }
+
+    public void changeMessage(){
+        this.message+=" Design Pattern";
+    }
 }

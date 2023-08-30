@@ -11,5 +11,11 @@ public class Runner {
         SingletonObject obj4 = SingletonObject.getInstance();
 
         System.out.println(obj3 == obj4);
+
+        System.out.println(obj3.message);
+        obj3.changeMessage();
+        System.out.println(obj3.message);
+
+        System.out.println(obj4.message);
     }
 }
