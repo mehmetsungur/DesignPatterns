@@ -6,5 +6,10 @@ public class Runner {
         SingletonObject obj2 = new SingletonObject();
 
         System.out.println(obj1 == obj2);
+
+        SingletonObject obj3 = SingletonObject.getInstance();
+        SingletonObject obj4 = SingletonObject.getInstance();
+
+        System.out.println(obj3 == obj4);
     }
 }
