@@ -3,7 +3,7 @@ package CreationalDP.AbstractFactoryDP;
 public class ShapeFactory implements AbstractFactory<Shape> {
     @Override
     public Shape getObject(String objectType) {
-        return null;
+        return getShape(objectType);
     }
 
     public static Shape getShape(String type){
