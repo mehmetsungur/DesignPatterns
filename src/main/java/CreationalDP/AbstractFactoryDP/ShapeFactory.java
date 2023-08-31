@@ -1,6 +1,11 @@
 package CreationalDP.AbstractFactoryDP;
 
-public class ShapeFactory {
+public class ShapeFactory implements AbstractFactory<Shape> {
+    @Override
+    public Shape getObject(String objectType) {
+        return null;
+    }
+
     public static Shape getShape(String type){
         if(type.equalsIgnoreCase("ucgen")){
             return new Triangle("ucgen",60,3);
@@ -9,7 +14,6 @@ public class ShapeFactory {
         }else if(type.equalsIgnoreCase("besgen")){
             return new Triangle("besgen",180,5);
         }
-
         return null;
     }
 }
