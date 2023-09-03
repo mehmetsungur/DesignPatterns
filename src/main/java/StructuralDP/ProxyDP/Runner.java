@@ -9,5 +9,6 @@ public class Runner {
         System.out.println("*************");
 
         ProxyClass proxyObject = new ProxyClass("C:\\image.jpg");
+        proxyObject.showImage();
     }
 }
