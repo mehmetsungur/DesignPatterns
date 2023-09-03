@@ -1,4 +1,5 @@
 package StructuralDP.ProxyDP;
 
-public class ImageGenerator {
+public interface ImageGenerator {
+    void showImage();
 }
