@@ -1,4 +1,4 @@
-package CreationalDP.StructuralDP.DecoratorDP;
+package StructuralDP.DecoratorDP;
 
 public class Runner {
     public static void main(String[] args) {

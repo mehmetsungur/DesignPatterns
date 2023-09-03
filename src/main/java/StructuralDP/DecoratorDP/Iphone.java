@@ -1,4 +1,4 @@
-package CreationalDP.StructuralDP.DecoratorDP;
+package StructuralDP.DecoratorDP;
 
 public class Iphone implements Phone {
     @Override

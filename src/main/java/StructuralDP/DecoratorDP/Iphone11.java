@@ -1,4 +1,4 @@
-package CreationalDP.StructuralDP.DecoratorDP;
+package StructuralDP.DecoratorDP;
 
 public class Iphone11 extends PhoneDecorator{
     public Iphone11(Iphone basicPhone) {
