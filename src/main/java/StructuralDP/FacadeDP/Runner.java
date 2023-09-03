@@ -17,5 +17,10 @@ public class Runner {
         md5EncFalse.encrypt(text, "ms", false);
 
         System.out.println("------------------------------");
+
+        EncryptoFacade encryptoFacade = new EncryptoFacade();
+        encryptoFacade.encrypt(text,EncryptorType.AES);
+        encryptoFacade.encrypt(text,EncryptorType.SHA);
+        encryptoFacade.encrypt(text,EncryptorType.MD5);
     }
 }
