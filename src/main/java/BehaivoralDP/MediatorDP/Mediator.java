@@ -1,4 +1,4 @@
 package BehaivoralDP.MediatorDP;
 
-public class Mediator {
+public interface Mediator {
 }
