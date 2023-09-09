@@ -1,7 +1,7 @@
 package BehaivoralDP.ChainOfResponsibilityDP;
 
 public class GenelMudur extends Approver {
-    public GenelMudur(Approver chief) {
+    public GenelMudur() {
         super(null);
     }
 
