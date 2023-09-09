@@ -1,4 +1,6 @@
 package BehaivoralDP.MediatorDP;
 
-public class Actor {
+public interface Actor {
+    void receiveMessage(String message);
+    void sendMessage(String topic, String message);
 }
