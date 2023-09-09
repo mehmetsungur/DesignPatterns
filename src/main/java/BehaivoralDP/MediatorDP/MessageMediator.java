@@ -1,4 +1,9 @@
 package BehaivoralDP.MediatorDP;
 
-public class MessageMediator {
+public class MessageMediator implements Mediator {
+
+    @Override
+    public void dispatch(String topic, String message) {
+
+    }
 }
