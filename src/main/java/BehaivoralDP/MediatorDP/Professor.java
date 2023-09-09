@@ -16,6 +16,6 @@ public class Professor implements Actor {
 
     @Override
     public void sendMessage(String topic, String message) {
-        System.out.println(this.name + " answer the questions " + message);
+        mediator.dispatch(topic,message);
     }
 }
