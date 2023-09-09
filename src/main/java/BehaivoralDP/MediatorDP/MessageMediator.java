@@ -12,6 +12,12 @@ public class MessageMediator implements Mediator {
 
     @Override
     public void dispatch(String topic, String message) {
+        Actor actor = registeredActor.get(topic);
 
+        if(actor == null){
+            System.out.println("We have no expert about this topic");
+        }else{
+            actor.receiveMessage(message);
+        }
     }
 }
